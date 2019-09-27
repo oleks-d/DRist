@@ -1,0 +1,12 @@
+{{ define "newtheme" }}
+{{ template "header" }}
+<h1> Зло пожаловать </h1>
+
+<form action="add_theme" method="post">
+    <input name='name' type="text">
+    <input name='description' type="password">
+    <input type="submit">
+</form>
+
+{{ template "footer" }}
+{{ end }}
